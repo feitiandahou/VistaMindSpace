@@ -1,11 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="test-less-class">如果看到粉色大字，说明 Less 生效了！</div>
+  <router-view></router-view>
 </template>
 
-<style scoped></style>
+<style lang="less">
+@import './assets/websitehubstyles/test.less';
+</style>

@@ -1,0 +1,27 @@
+/* 定义根变量 - 白天模式 */
+:root {
+  --bg-primary: #f0f2f5;
+  --bg-secondary: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --accent-color: #6366f1; /* Indigo */
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --blob-color-1: #ffcbf2;
+  --blob-color-2: #a2d2ff;
+}
+
+/* 暗黑模式覆盖 */
+[data-theme='dark'] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent-color: #818cf8;
+  --glass-bg: rgba(30, 41, 59, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --blob-color-1: #4c1d95; /* 深紫色 */
+  --blob-color-2: #1e3a8a; /* 深蓝色 */
+}
